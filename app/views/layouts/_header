@@ -35,8 +35,11 @@
         </div><!--/span-->
       </div><!--/row-->
 
-      <footer>
-        <p>&copy; Company 2015</p>
-      </footer>
+    <footer class="footer">
+          <div class="container">
+            <p class="text-muted">Place sticky footer content here.</p>
+          </div>
+    </footer>
+
 
     </div> <!-- /container -->

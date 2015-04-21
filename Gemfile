@@ -36,17 +36,21 @@ gem "twitter-bootstrap-rails"
 gem "haml-rails", "~> 0.9"
 gem 'html2haml'
 
+gem 'rspec'
+gem 'rspec-rails', '~> 3.0'
+gem 'shoulda-matchers'
+gem 'factory_girl_rails'
+gem 'devise'
+
+gem 'simplecov', :require => false
+
 
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
-  gem 'rspec'
-  gem 'rspec-rails', '~> 3.0'
-  gem 'shoulda-matchers'
-  gem 'factory_girl_rails'
-  
+
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
